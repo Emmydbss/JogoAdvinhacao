@@ -11,7 +11,7 @@ function numeroUsuario(){
 function conferirNumeros(numero_computador){
     let tentativas = 10;
 
-    for(let e=1; e<tentativas; e++){
+    for(let e=1; e<=tentativas; e++){
 
         let numero_usuario=numeroUsuario();
 
